@@ -1,0 +1,15 @@
+group("libs")
+project("irsdk")
+  uuid("9d1a94d0-9102-4859-931c-228cde67aee3")
+  kind("StaticLib")
+  language("C++")
+  files({
+    "irsdk_client.h",
+    "irsdk_client.cpp",
+    "irsdk_defines.h",
+    "irsdk_diskclient.h",
+    "irsdk_diskclient.cpp",
+    "irsdk_utils.cpp",
+    "yaml_parser.h",
+    "yaml_parser.cpp",
+  })
